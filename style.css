@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+.div1 {
+    position: absolute;
+    background: red;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.div2 {
+display: none;
+}
+.div3 {
+visibility: hidden;
+}
+
+.div4 {
+width: 300px;
+height: 100px;
+border: 2px solid black;
+}
+.div5 {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.par {
+    display: flex;
+    flex-direction: row;
+border: 2px solid black;
+width: 50%;
+justify-content: center;
+margin: 0 25%;
+
+}
+.child {
+border: 2px solid black;
+height: 50px;
+width: 50px;
+}
+
+.par2 {
+justify-content: flex-start;
+flex-direction: column;
+}
+.par3 {
+    justify-content: flex-end;
+    
+}
+.par4 {
+    justify-content: space-between;
+}
+.par5 {
+    justify-content: space-around;
+}
+
+body {
+    /* display: flex; */
+}
+.block {
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+}
+.divq1 {
+    left: 20px;
+    background-color: red;
+    z-index: 4;
+}
+.divq2 {
+    left: 40px;
+    background-color: greenyellow;
+    z-index: 3;
+}
+.divq3 {
+    left: 60px;
+    background-color: blue;
+    z-index: 2;
+}
+.divq4 {
+    left: 80px;
+    background-color: blueviolet;
+    z-index: 1;
+}
